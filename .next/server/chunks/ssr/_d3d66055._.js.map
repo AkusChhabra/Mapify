@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/dashboard.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"logo\": \"dashboard-module__Ap9lTa__logo\",\n  \"logo-row\": \"dashboard-module__Ap9lTa__logo-row\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA"}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":["file:///Users/akus/projects/Projects/Mapify/mapify/src/app/page.js"],"sourcesContent":["import Image from \"next/image\";\nimport Link from \"next/link\";\nimport React from \"react\";\nimport styles from \"./../../styles/dashboard.module.css\"\n\nexport default function Home() {\n  return (\n    <div>\n      <header>\n        <div className={styles.logo}>\n          <div className={styles.logo-row}>\n            <Image src=\"/images/Spotify_Primary_Logo_RGB_Green.png\"\n            width={200}\n            height={200}\n            alt=\"Spotify Image\"\n            />\n          </div>\n        </div>\n      </header>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;AACA;AACA;;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBACC,cAAA,8OAAC;gBAAI,WAAW,+HAAA,CAAA,UAAM,CAAC,IAAI;0BACzB,cAAA,8OAAC;oBAAI,WAAW,+HAAA,CAAA,UAAM,CAAC,IAAI,GAAC;8BAC1B,cAAA,8OAAC,6HAAA,CAAA,UAAK;wBAAC,KAAI;wBACX,OAAO;wBACP,QAAQ;wBACR,KAAI;;;;;;;;;;;;;;;;;;;;;;;;;;AAOhB","debugId":null}}]
+}

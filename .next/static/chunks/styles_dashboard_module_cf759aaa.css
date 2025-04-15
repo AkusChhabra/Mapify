@@ -1,0 +1,25 @@
+/* [project]/styles/dashboard.module.css [app-client] (css) */
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #b5b5b5;
+}
+
+.dashboard-module__Ap9lTa__logo-row {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.dashboard-module__Ap9lTa__logo {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+
+
+/*# sourceMappingURL=styles_dashboard_module_cf759aaa.css.map*/

@@ -1,0 +1,779 @@
+/* [next]/internal/font/google/gyByhwUxId8gMEwSGFWNOITddY4-s.woff2 (static in css) */
+/* embedded static asset "/_next/static/media/gyByhwUxId8gMEwSGFWNOITddY4-s.81df3a5b.woff2" */
+
+/* [next]/internal/font/google/gyByhwUxId8gMEwcGFWNOITd-s.p.woff2 (static in css) */
+/* embedded static asset "/_next/static/media/gyByhwUxId8gMEwcGFWNOITd-s.p.da1ebef7.woff2" */
+
+/* [next]/internal/font/google/geist_6feb203d.module.css [app-client] (css) */
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/gyByhwUxId8gMEwSGFWNOITddY4-s.81df3a5b.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/gyByhwUxId8gMEwcGFWNOITd-s.p.da1ebef7.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist Fallback;
+  src: local(Arial);
+  ascent-override: 95.94%;
+  descent-override: 28.16%;
+  line-gap-override: 0.0%;
+  size-adjust: 104.76%;
+}
+
+.geist_6feb203d-module__8DQF1a__className {
+  font-family: Geist, Geist Fallback;
+  font-style: normal;
+}
+
+.geist_6feb203d-module__8DQF1a__variable {
+  --font-geist-sans: "Geist", "Geist Fallback";
+}
+
+
+/* [next]/internal/font/google/or3nQ6H_1_WfwkMZI_qYFrkdmhHkjkotbA-s.woff2 (static in css) */
+/* embedded static asset "/_next/static/media/or3nQ6H_1_WfwkMZI_qYFrkdmhHkjkotbA-s.e32db976.woff2" */
+
+/* [next]/internal/font/google/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.woff2 (static in css) */
+/* embedded static asset "/_next/static/media/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.be19f591.woff2" */
+
+/* [next]/internal/font/google/geist_mono_c7d183a.module.css [app-client] (css) */
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/or3nQ6H_1_WfwkMZI_qYFrkdmhHkjkotbA-s.e32db976.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.be19f591.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist Mono Fallback;
+  src: local(Arial);
+  ascent-override: 74.67%;
+  descent-override: 21.92%;
+  line-gap-override: 0.0%;
+  size-adjust: 134.59%;
+}
+
+.geist_mono_c7d183a-module__ZW1U4G__className {
+  font-family: Geist Mono, Geist Mono Fallback;
+  font-style: normal;
+}
+
+.geist_mono_c7d183a-module__ZW1U4G__variable {
+  --font-geist-mono: "Geist Mono", "Geist Mono Fallback";
+}
+
+
+/* [project]/src/app/globals.css [app-client] (css) */
+@layer properties;
+@layer theme, base, components, utilities;
+
+@layer theme {
+  :root, :host {
+    --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --color-green-700: oklch(52.7% .154 150.069);
+    --color-sky-200: oklch(90.1% .058 230.902);
+    --color-blue-400: oklch(70.7% .165 254.624);
+    --color-indigo-500: oklch(58.5% .233 277.117);
+    --color-indigo-900: oklch(35.9% .144 278.697);
+    --default-font-family: var(--font-sans);
+    --default-mono-font-family: var(--font-mono);
+  }
+}
+
+@layer base {
+  *, :after, :before, ::backdrop, ::file-selector-button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+  }
+
+  html, :host {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+    font-feature-settings: var(--default-font-feature-settings, normal);
+    font-variation-settings: var(--default-font-variation-settings, normal);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+
+  b, strong {
+    font-weight: bolder;
+  }
+
+  code, kbd, samp, pre {
+    font-family: var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    font-feature-settings: var(--default-mono-font-feature-settings, normal);
+    font-variation-settings: var(--default-mono-font-variation-settings, normal);
+    font-size: 1em;
+  }
+
+  small {
+    font-size: 80%;
+  }
+
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+
+  sub {
+    bottom: -.25em;
+  }
+
+  sup {
+    top: -.5em;
+  }
+
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+
+  :-moz-focusring {
+    outline: auto;
+  }
+
+  progress {
+    vertical-align: baseline;
+  }
+
+  summary {
+    display: list-item;
+  }
+
+  ol, ul, menu {
+    list-style: none;
+  }
+
+  img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    vertical-align: middle;
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  button, input, select, optgroup, textarea, ::file-selector-button {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    border-radius: 0;
+    background-color: #0000;
+    opacity: 1;
+  }
+
+  :where(select:is([multiple], [size])) optgroup {
+    font-weight: bolder;
+  }
+
+  :where(select:is([multiple], [size])) optgroup option {
+    padding-inline-start: 20px;
+  }
+
+  ::file-selector-button {
+    margin-inline-end: 4px;
+  }
+
+  ::placeholder {
+    opacity: 1;
+  }
+
+  @supports (not ((-webkit-appearance: -apple-pay-button))) or (contain-intrinsic-size: 1px) {
+    ::placeholder {
+      color: currentColor;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      ::placeholder {
+        color: color-mix(in oklab, currentcolor 50%, transparent);
+      }
+    }
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+
+  ::-webkit-date-and-time-value {
+    min-height: 1lh;
+    text-align: inherit;
+  }
+
+  ::-webkit-datetime-edit {
+    display: inline-flex;
+  }
+
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+
+  ::-webkit-datetime-edit, ::-webkit-datetime-edit-year-field, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute-field, ::-webkit-datetime-edit-second-field, ::-webkit-datetime-edit-millisecond-field, ::-webkit-datetime-edit-meridiem-field {
+    padding-block: 0;
+  }
+
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+
+  button, input:where([type="button"], [type="reset"], [type="submit"]), ::file-selector-button {
+    appearance: button;
+  }
+
+  ::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    height: auto;
+  }
+
+  [hidden]:where(:not([hidden="until-found"])) {
+    display: none !important;
+  }
+}
+
+@layer utilities {
+  .rounded-full {
+    border-radius: 3.40282e38px;
+  }
+
+  .bg-radial {
+    --tw-gradient-position: in oklab;
+    background-image: radial-gradient(var(--tw-gradient-stops));
+  }
+
+  .bg-radial-\[at_25\%_80\%\] {
+    --tw-gradient-position: at 25% 80%;
+    background-image: radial-gradient(var(--tw-gradient-stops, at 25% 80%));
+  }
+
+  .from-sky-200 {
+    --tw-gradient-from: var(--color-sky-200);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .from-20\% {
+    --tw-gradient-from-position: 20%;
+  }
+
+  .via-blue-400 {
+    --tw-gradient-via: var(--color-blue-400);
+    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-via-stops);
+  }
+
+  .to-green-700 {
+    --tw-gradient-to: var(--color-green-700);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .to-indigo-900 {
+    --tw-gradient-to: var(--color-indigo-900);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .to-90\% {
+    --tw-gradient-to-position: 90%;
+  }
+
+  .antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .shadow-lg {
+    --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, #0000001a), 0 4px 6px -4px var(--tw-shadow-color, #0000001a);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+
+  .shadow-indigo-500\/100 {
+    --tw-shadow-color: #625fff;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .shadow-indigo-500\/100 {
+      --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-indigo-500) 100%, transparent) var(--tw-shadow-alpha), transparent);
+    }
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: #fff;
+  --foreground: #fff;
+  background: #020024;
+  background: linear-gradient(#020024 15%, #1ed760 150%);
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75 px;
+  margin: auto;
+  position: relative;
+}
+
+.icon {
+  float: left;
+  height: 70px;
+  margin-left: 100px;
+}
+
+.logo {
+  position: relative;
+  margin-top: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  width: 75px;
+  height: 75px;
+  padding-top: 10px;
+}
+
+.logoText {
+  margin-top: 10px;
+  color: #fff;
+  float: right;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 35px;
+  font-weight: 20px;
+  letter-spacing: 3px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.menu {
+  width: 500px;
+  float: right;
+  height: 70px;
+  position: relative;
+}
+
+ul {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 50px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: bold;
+  transition: all .4s ease-in-out;
+  display: flex;
+  white-space: nowrap;
+}
+
+.searchHome {
+  transition: all .4s;
+  touch-action: manipulation;
+}
+
+.searchHome:hover {
+  margin-right: 2px;
+  display: block;
+  float: left;
+  box-shadow: 1px 1px .5px #ccc;
+  -webkit-box-shadow: 1px 1px .5px #ccc;
+  -moz-box-shadow: 1px 1px .5px #ccc;
+  transform: scale(1.01)rotate(0);
+}
+
+ul li b {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: inset 0 -25px 18px -14px #2cbb6333, 0 1px 2px #2cbb6326, 0 2px 4px #2cbb6326, 0 4px 8px #2cbb6326, 0 8px 16px #2cbb6326, 0 16px 32px #2cbb6326;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica Neue", sans-serif, ;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .25s;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+ul li b:hover {
+  box-shadow: inset 0 -25px 18px -14px #2cbb6359, 0 1px 2px #2cbb6340, 0 2px 4px #2cbb6340, 0 4px 8px #2cbb6340, 0 8px 16px #2cbb6340, 0 16px 32px #2cbb6340;
+  transform: scale(1.05)rotate(0);
+}
+
+.headerContainer {
+  width: min(100vw, 100%);
+}
+
+.headerText {
+  position: relative;
+  line-height: 0;
+  margin-top: 0;
+  color: #fff;
+  float: left;
+  text-align: center;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 40px;
+  font-weight: 20px;
+  letter-spacing: 0;
+  padding-left: 25%;
+  padding-top: 0;
+  text-shadow: 2px 2px #656665;
+  z-index: 1;
+  overflow: visible;
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+#earth {
+  z-index: -1;
+  top: 150px;
+  position: relative;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background: url("https://web.archive.org/web/20150807125159if_/http://www.noirextreme.com/digital/Earth-Color4096.jpg");
+  border-radius: 50%;
+  background-size: 620px;
+  box-shadow: inset 8px 38px 80px 38px #000, inset -6px 0 12px 5px #ffffff4d;
+  animation-name: rotate;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  from {
+    background-position: 0 30px;
+  }
+
+  to {
+    background-position: 620px 30px;
+  }
+}
+
+@-webkit-keyframes rotate {
+  from {
+    background-position: 0 30px;
+  }
+
+  to {
+    background-position: 620px 30px;
+  }
+}
+
+.preTableContainer {
+  width: min(100vw, 100%);
+}
+
+.preTableText {
+  line-height: 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  display: flexbox;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 20px;
+  font-weight: 20px;
+  letter-spacing: 0;
+  padding-left: 0;
+  padding-top: 300px;
+  text-shadow: 2px 2px #656665;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.loginText {
+  position: static;
+  margin-top: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 40px;
+  font-weight: 20px;
+  letter-spacing: 0;
+  text-shadow: 2px 2px #656665;
+  z-index: 1;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  border: solid;
+  border-radius: 2%;
+  border-color: #656665;
+  background-color: #212121;
+  z-index: -1;
+}
+
+.loginBoxText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 50px;
+  font-weight: 20px;
+  letter-spacing: 1px;
+}
+
+@property --tw-gradient-position {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-gradient-from {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+
+@property --tw-gradient-via {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+
+@property --tw-gradient-to {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0000;
+}
+
+@property --tw-gradient-stops {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-gradient-via-stops {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-gradient-from-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+
+@property --tw-gradient-via-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 50%;
+}
+
+@property --tw-gradient-to-position {
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@layer properties {
+  @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
+    *, :before, :after, ::backdrop {
+      --tw-gradient-position: initial;
+      --tw-gradient-from: #0000;
+      --tw-gradient-via: #0000;
+      --tw-gradient-to: #0000;
+      --tw-gradient-stops: initial;
+      --tw-gradient-via-stops: initial;
+      --tw-gradient-from-position: 0%;
+      --tw-gradient-via-position: 50%;
+      --tw-gradient-to-position: 100%;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+    }
+  }
+}
+
+
+/*# sourceMappingURL=%5Broot%20of%20the%20server%5D__860c0698._.css.map*/

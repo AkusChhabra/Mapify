@@ -1,0 +1,277 @@
+@import "tailwindcss";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #ffffff;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 15%, rgba(30,215,96,1) 150%);
+  height: 100%;
+}
+
+/*
+body {
+  background-color: #111;
+}*/
+
+/*
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}*/
+/*s
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #ededed;
+    --background:
+  }
+}*/
+
+.main {
+  /*background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;*/
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.navbar {
+  width: 1200px;
+  height: 75 px;
+  margin: auto;
+  position: relative;
+  /*
+  display: flex;
+  flex-wrap: wrap;*/
+}
+.icon {
+  float: left;
+  height: 70px;
+  margin-left: 100px;
+}
+.logo {
+  position:relative;
+  margin-top: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  width: 75px;
+  height: 75px; 
+  padding-top: 10px;
+}
+.logoText { /* #1ED760*/
+  margin-top: 10px;
+  color: #ffffff;
+  float: right;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 35px;
+  font-weight: 20px;
+  letter-spacing: 3px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.menu {
+  width: 500px;
+  float: right;
+  height: 70px;
+  position: relative;
+}
+
+ul {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+ul li {
+  list-style: none;
+  margin-right: 50px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a  {
+  color:#ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  white-space: nowrap;
+}
+.searchHome {
+  transition: 0.4s ease;
+  touch-action: manipulation;
+}
+.searchHome:hover {
+  margin-right: 2px;
+  display: block;
+  float: left;
+  box-shadow: 1px 1px 0.5px #ccc;
+  -webkit-box-shadow: 1px 1px 0.5px #ccc;
+  -moz-box-shadow: 1px 1px 0.5px #ccc;
+  transform: scale(1.01) rotate(0deg);
+}
+
+ul li b {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica Neue", sans-serif,;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+ul li b:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(0deg);
+}
+
+.headerContainer {
+  width: min(100vw,100%)
+}
+
+.headerText {
+  position: relative;
+  line-height: 0px;
+  margin-top: 0px;
+  color: #ffffff;
+  float: left;
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: 20px;
+  letter-spacing: 0px;
+  padding-left:25%;
+  padding-top: 0px;
+  text-shadow: 2px 2px 0px #656665;
+  z-index: 1;
+  overflow:visible;
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap; 
+}
+
+#earth {
+  z-index: -1;
+  top:150px;
+  position:relative;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background: url(https://web.archive.org/web/20150807125159if_/http://www.noirextreme.com/digital/Earth-Color4096.jpg);
+  border-radius: 50%;
+  background-size: 620px;
+  box-shadow: inset 8px 38px 80px 38px rgb(0, 0, 0), inset -6px 0 12px 5px rgba(255, 255, 255, 0.3);
+  animation-name: rotate;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: rotate;
+     -webkit-animation-duration: 60s;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-timing-function: linear;
+}
+@keyframes rotate {
+  from {
+    background-position: 0px 30px;
+  }
+  to {
+    background-position: 620px 30px;
+  }
+}
+@-webkit-keyframes rotate {
+  from {
+    background-position: 0px 30px;
+  }
+  to {
+    background-position: 620px 30px;
+  }
+}
+.preTableContainer {
+  width: min(100vw,100%)
+}
+
+.preTableText {
+  line-height: 0px;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  display: flexbox;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 20px;
+  letter-spacing: 0px;
+  padding-left: 0px;
+  padding-top: 300px;
+  text-shadow: 2px 2px 0px #656665;
+  z-index: 1;
+  white-space: nowrap;
+} 
+
+/*---------------*/
+/* Login Page CSS*/
+/*---------------*/
+
+.loginText {
+  position: static;
+  margin-top: 0px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: 20px;
+  letter-spacing: 0px;
+  text-shadow: 2px 2px 0px #656665;
+  z-index: 1;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  border: solid;
+  border-radius: 2%;
+  border-color: #656665;
+  background-color: #212121;
+  z-index: -1;
+}
+.loginBoxText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  font-weight: 20px;
+  letter-spacing: 1px;
+}
